@@ -16,7 +16,7 @@ Shell+ is a C shell program that operates in an infinite loop, awaiting user com
 - **Support for Special Characters:** Shell24 handles various special characters such as piping, redirection, conditional execution, background processing, and sequential execution of commands.
 
 ### Rules and Conditions
-1. **Rule 1:** The `newt` command (`shell24$newt`) creates a new copy of Shell24. There's no upper limit on the number of terminal sessions that can be opened.
+1. **Rule 1:** The `newt` command (`shell$newt`) creates a new copy of Shell24. There's no upper limit on the number of terminal sessions that can be opened.
 2. **Rule 2:** The `argc` (argument count) of any command/program should be between 1 and 5, inclusive.
 3. **Rule 3:** The `argc` of individual commands or programs used with special characters must also be between 1 and 5.
 
