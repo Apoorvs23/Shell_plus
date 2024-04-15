@@ -5,10 +5,10 @@ Data integrity and rapid recovery are ensured by implementing a versatile backup
 
 # Project Overview
 
-## Shell24 - An enhanced Shell
+## Shell+ - An enhanced Shell
 
 ### Description
-Shell24 is a C program shell that operates in an infinite loop, awaiting user commands. Upon receiving a command, the program assembles and executes it using `fork()`, `exec()`, and other necessary system calls. It adheres to specific rules and conditions outlined below:
+Shell+ is a C shell program that operates in an infinite loop, awaiting user commands. Upon receiving a command, the program assembles and executes it using `fork()`, `exec()`, and other necessary system calls. It adheres to specific rules and conditions outlined below:
 
 ### Features
 - **Modular Approach:** The program is designed with modularity in mind, ensuring ease of maintenance and extensibility.
