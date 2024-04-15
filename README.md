@@ -5,7 +5,7 @@ Data integrity and rapid recovery are ensured by implementing a versatile backup
 
 # Project Overview
 
-## Shell+ - An enhanced Shell
+## Shell+ - an enhanced Shell
 
 ### Description
 Shell+ is a C shell program that operates in an infinite loop, awaiting user commands. Upon receiving a command, the program assembles and executes it using `fork()`, `exec()`, and other necessary system calls. It adheres to specific rules and conditions outlined below:
@@ -32,11 +32,11 @@ Shell24 supports handling the following special characters:
 ## Inbuilt Process Control (a2prc.c)
 
 ### Description
-The `a2prc.c` program searches for a process in the process tree rooted at a specified process and prints requested information based on input parameters.
+The `processControl.c` program searches for a process in the process tree rooted at a specified process and prints requested information based on input parameters.
 
 ### Synopsis
 ```
-a2prc [process_id] [root_process] [OPTION]
+processControl [process_id] [root_process] [OPTION]
 ```
 
 ### Options
@@ -54,13 +54,13 @@ a2prc [process_id] [root_process] [OPTION]
 ## Inbuilt File Control (fileutil)
 
 ### Description
-The `fileutil` program performs various file-related operations based on specified arguments and options.
+The `fileUtil.c` program performs various file-related operations based on specified arguments and options.
 
 ### Synopsis
 ```
-fileutil [root_dir] filename
-fileutil [root_dir] [storage_dir] [options] filename
-fileutil [root_dir] [storage_dir] extension
+fileUtil [root_dir] filename
+fileUtil [root_dir] [storage_dir] [options] filename
+fileUtil [root_dir] [storage_dir] extension
 ```
 
 ### Options
